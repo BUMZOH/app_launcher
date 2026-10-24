@@ -1,0 +1,13 @@
+{
+    "Tool A": {
+        "app_path": "C:\\myProgram\\tool_a\\tool_a.py",
+        "venv_path": "C:\\myProgram\\tool_a\\.venv"
+    },
+    "Tool B": {
+        "app_path": "C:\\myProgram\\tool_b\\tool_b.py"
+    },
+    "Wi-Fi Switch Tool": {
+        "app_path": "C:\\myProgram\\wifi_tool\\switch_wifi.py",
+        "venv_path": "C:\\myProgram\\wifi_tool\\.venv"
+    }
+}
