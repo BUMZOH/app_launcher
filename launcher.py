@@ -24,12 +24,17 @@ def launch_app(app):
     else:
         python_path = "python"
 
+
     subprocess.Popen(
-        [str(python_path), str(app_path)],
+        [
+            "cmd",
+            "/k",
+            str(python_path),
+            str(app_path),
+        ],
         cwd=app_path.parent,
         creationflags=subprocess.CREATE_NEW_CONSOLE,
     )
-
 
 def main():
     apps = load_apps()
